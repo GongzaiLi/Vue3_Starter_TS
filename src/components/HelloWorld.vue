@@ -1,5 +1,21 @@
 <template>
   <div class="hello">
+    <el-table :data="tableData" style="width: 100%">
+      <el-table-column prop="titleCn" label="title-china" width="180"/>
+      <el-table-column prop="titleEn" label="title-english" width="180"/>
+    </el-table>
+
+
+    <el-row>
+      <el-button>Default</el-button>
+      <el-button type="primary">Primary</el-button>
+      <el-button type="success">Success</el-button>
+      <el-button type="info">Info</el-button>
+      <el-button type="warning">Warning</el-button>
+      <el-button type="danger">Danger</el-button>
+      <el-button>中文</el-button>
+    </el-row>
+
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -32,9 +48,8 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
-
-    {{tableData}}
   </div>
+
 </template>
 
 <script lang="ts">
