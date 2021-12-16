@@ -26,14 +26,14 @@ https://nodejs.org/en/
 5. ```bash
    1. vue create **name of app**						=> Enter
    2. > Manually select features 						=> Enter
-   3. > () TypeScript  							=>SPACE	=> Enter
-   4. > 3.x 											=> Enter
-   5. ? Use class-style component syntax? (y/N)   => N
+   3. > () TypeScript  							=>SPACE	 => Enter
+   4. > 3.x 							        => Enter
+   5. ? Use class-style component syntax? (y/N)                            => N
    6. ? Use Babel alongside TypeScript (required for modern mode, auto-detected polyfills, transpiling JSX)? (Y/n) => Y 
-   7. > ESLint with error prevention only				=> Enter
-   8. > (*) Lint on save 								=> Enter
+   7. > ESLint with error prevention only				        => Enter
+   8. > (*) Lint on save 						        => Enter
    9. > In dedicated config files						=> Enter
-   10. ? Save this as a preset for future projects? (y/N)  =>N
+   10. ? Save this as a preset for future projects? (y/N)                  =>N
    ```
 
 6. npm install && npm run serve (The step will test web is or not is working)
@@ -54,7 +54,7 @@ https://nodejs.org/en/
 
 3. Then run 'npm install'
 
-4. In **'main.js'** import the router and add **'app.user(router)'** to link the router to our Vue object.
+4. In **'main.ts'** import the router and add **'app.user(router)'** to link the router to our Vue object.
 
 5. ```import { createWebHistory, createRouter } from 'vue-router'``` in a new router file
 
@@ -70,7 +70,7 @@ https://nodejs.org/en/
    ```
 
 7. ``` vue
-   //In main.js:
+   //In main.ts:
    import router from "./router";
    
    const app = createApp(App);
@@ -112,7 +112,7 @@ https://nodejs.org/en/
    ```
 
 6. ```vue
-   //In main.js
+   //In main.ts
    import Api from "./api";
    //....
    app.config.globalProperties.$api =Api;
@@ -132,7 +132,7 @@ https://nodejs.org/en/
 3. Then run 'npm install' 
 
 4. ``` vue
-   // In main.js
+   // In main.ts
    import ElementPlus from 'element-plus';
    .....
    app.use(ElementPlus);
