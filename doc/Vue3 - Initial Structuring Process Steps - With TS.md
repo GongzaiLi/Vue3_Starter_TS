@@ -38,7 +38,7 @@ https://nodejs.org/en/
 
 6. npm install && npm run serve (The step will test web is or not is working)
 
-   ![1](./MD_image/1.png)
+   ![1](MD_image/1.png)
 
    7. npm install typescript --save-dev 
 
