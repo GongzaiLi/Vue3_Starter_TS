@@ -26,7 +26,7 @@ https://nodejs.org/en/
 5. ```bash
    1. vue create **name of app**						=> Enter
    2. > Manually select features 						=> Enter
-   3. > () TypeScript  							=>SPACE	 => Enter
+   3. > () TypeScript  							=> SPACE	 => Enter
    4. > 3.x 							        => Enter
    5. ? Use class-style component syntax? (y/N)                            => N
    6. ? Use Babel alongside TypeScript (required for modern mode, auto-detected polyfills, transpiling JSX)? (Y/n) => Y 
